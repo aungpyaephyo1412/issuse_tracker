@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-        <body className={`max-w-screen-xl mx-auto ${poppins.className}`}>
+        <body className={`max-w-screen-xl mx-auto px-5 ${poppins.className}`}>
         <Theme>
             <Navbar/>
             {children}
