@@ -13,7 +13,7 @@ const Navbar = () => {
             <ul className='flex gap-x-4'>
                 {
                     navLinks.map(({label,href})=><li key={href}>
-                        <Link href='/' className={`${currentPath === href ? "text-zinc-900" : "text-zinc-500"} hover:text-zinc-800 transition-colors`}>
+                        <Link href={href} className={`${currentPath === href ? "text-zinc-900" : "text-zinc-500"} hover:text-zinc-800 transition-colors`}>
                             {label}
                         </Link>
                     </li>)
